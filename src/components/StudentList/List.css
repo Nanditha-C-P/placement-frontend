@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+
+  align-items: flex-end;
+}
+.List {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow-y: hidden;
+}
+
+.List .content {
+  width: 250px;
+  height: 2em;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.List .text {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.List .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.List .profile:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  transition: background-color 200 ms ease-in;
+}
+.List .container {
+  overflow-y: scroll;
+}
